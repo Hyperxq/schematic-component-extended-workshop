@@ -1,0 +1,9 @@
+node_modules/
+dist/
+/tests/
+**/logo.ts
+**/messages.ts
+commitlint.config.js
+rollup.config.js
+tsconfig.json
+generate-types.js

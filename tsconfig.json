@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./dist/tsbuildinfo",
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

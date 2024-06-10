@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "BuilderAdd",
+    "title": "Builder Add",
+    "type": "object",
+    "properties": {}
+}

@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "ComponentExtended",
+    "title": "ComponentExtended",
+    "type": "object",
+    "anyOf": [
+        {
+            "$ref": "https://unpkg.com/@schematics/angular@18.0.3/component/schema.json"
+        },
+        {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    ],
+    "properties": {
+        "skipStorybook": {
+            "type": "boolean",
+            "description": "Do you want to add a storybook file?",
+            "default": false
+        }
+    },
+    "required": []
+}
