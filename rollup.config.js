@@ -43,6 +43,7 @@ const basePlugins = [
 
 const baseExternal = [
   'node:module',
+  'child_process',
   'ansi-colors',
   'ora',
   'inquirer',
