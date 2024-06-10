@@ -1,7 +1,7 @@
 {
   "name": "workshop",
   "author": "",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A blank schematics",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
